@@ -45,7 +45,7 @@ const Blog = () => {
         <div className=" w-full p-5  md:w-[40vw] h-[80vh] md:h-[120vh] ">
           <img className='w-full h-full object-cover' src="/images/blogs/blog_cvr_1.webp" alt="" />
         </div>
-        <div className=" w-[90%] md:w-[40vw] md:text-xl  text-start py-20">
+        <div className=" w-[90%] md:w-[40vw] md:text-xl  text-start py-20 md:px-5">
           <p>Diamond2’s origins lie in innovative technology and advanced science.
             Born out of a technological breakthrough, our extraordinary lab-grown
             diamond rivals the mined diamonds with unique properties aimed at
@@ -75,7 +75,7 @@ const Blog = () => {
         <div className=" w-full p-5  md:w-[40vw] h-[80vh] md:h-[120vh] ">
           <img className='w-full h-full object-cover' src="/images/blogs/blog_cvr_2.webp" alt="" />
         </div>
-        <div className="w-[90%] md:w-[40vw] md:text-xl  text-start py-20">
+        <div className="w-[90%] md:w-[40vw] md:text-xl  text-start py-20 md:px-5">
           <p>Our exceptional lab-grown Diamond2®
             possesses a fire and brilliance
             that equals that of the mined diamonds and respects mother nature. <br /><br />
