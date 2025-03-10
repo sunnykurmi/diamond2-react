@@ -483,17 +483,15 @@ export default function App() {
               </p>
               <div className="flex mt-10 gap-2">
                 <a href="https://www.instagram.com/diamond2official/?igsh=MXEyaG5hajJudjhkbQ%3D%3D#" target="_blank" rel="noreferrer">
-                  <RiInstagramFill className="hover:opacity-70 hover:scale-110 transition-all ease-linear duration-100" />
+                  <RiInstagramFill className="hover:opacity-70 cursor-pointer hover:scale-110 transition-all ease-linear duration-100" />
                 </a>
                 <a href="https://www.facebook.com/share/19yq86hQSB/?mibextid=wwXIfr" target="_blank" rel="noreferrer" >
-
+                <RiFacebookBoxFill className="hover:opacity-70 cursor-pointer hover:scale-110 transition-all ease-linear duration-100" />
                 </a>
-                <RiFacebookBoxFill className="hover:opacity-70 hover:scale-110 transition-all ease-linear duration-100" />
-
               </div>
             </div>
             <div className=" w-full max-[600px]:hidden ">
-
+              
               <img
                 className="w-[50%] mt-10"
                 src="/images/blogs/blog_cvr_1.webp"
