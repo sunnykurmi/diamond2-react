@@ -491,7 +491,6 @@ export default function App() {
               </div>
             </div>
             <div className=" w-full max-[600px]:hidden ">
-              
               <img
                 className="w-[50%] mt-10"
                 src="/images/blogs/blog_cvr_1.webp"
@@ -580,8 +579,8 @@ export default function App() {
           </div>
         </div>
       </div>
-      <div className="w-full ftr overflow-hidden  md:px-32   md:h-[80vh] flex-col bg-white  ">
-        <div className="w-full  overflow-hidden  h-[90%] grid  grid-cols-2 lg:grid-cols-5  ">
+      <div className="w-full ftr overflow-hidden  md:px-32   md:h-[80vh] flex justify-between flex-col pb-5 bg-white  ">
+        <div className="w-full  overflow-hidden  h-[85%] grid  grid-cols-2 lg:grid-cols-5  ">
           <div className="h-full  my-14  lg:m-0 px-2 flex flex-col justify-start">
             <div className=" h-[70vw]  md:h-[25vw]   w-full">
               <img className="h-full w-full object-cover" src="/images/footer/img5_compressed.webp" alt="" />
@@ -613,7 +612,7 @@ export default function App() {
             <p className="    montserrat text-[#6d1d45] font-medium  text-xs uppercase  ">Diamond2 Boxes</p>
           </div>
         </div>
-        <div className="w-full   montserrat flex flex-col lg:flex-row items-end justify-between ">
+        <div className="w-full  montserrat flex flex-col lg:flex-row items-end justify-between ">
           <img className=" md:w-[15%]" src="/images/logo_text_2.png" alt="" />
           <p className="  w-full my-5 lg:m-0 lg:w-fit   flex items-center justify-center cursor-pointer" onClick={scrollToTop}>
             Back to top
