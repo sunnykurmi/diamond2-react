@@ -48,11 +48,11 @@ function Loader() {
         >
           {/* Logo */}
           <div className="w-full center">
-            <img className="w-[12%]" src="/images/logo_text_2.png" alt="Logo" />
+            <img className=" w-[40%] md:w-[12%]" src="/images/logo_text_2.png" alt="Logo" />
           </div>
 
           {/* Image Loader Animation */}
-          <div className="w-[20vw] h-[60vh] relative overflow-hidden">
+          <div className=" w-[70%] md:w-[20vw] h-[60vh] relative overflow-hidden">
             {[...Array(6)].map((_, i) => (
               <motion.div
                 key={i}

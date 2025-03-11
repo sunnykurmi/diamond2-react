@@ -294,9 +294,11 @@ export default function App() {
 
   useEffect(() => {
     const handleResize = () => {
-      window.location.reload();
+      if (window.innerWidth > 768) {
+        window.location.reload();
+      }
     };
-
+  
     window.addEventListener("resize", handleResize);
     return () => {
       window.removeEventListener("resize", handleResize);
